@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>component</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import UIKit
+
+/// 
+///
+///
+/// - Parameters:
+///   - para1:
+///   - para2:
+///
+/// - Returns:
+///
+/// - Throws:
+///
+/// - Date: 2023.
+/// - Authors: Tomtom Chu
+///
+class 名稱: UIView {
+    
+    let areaHeight: CGFloat = 100
+    
+    init(){
+        super.init(frame: .zero)
+        self.translatesAutoresizingMaskIntoConstraints = false
+        
+        self.showBorder()
+    }
+    
+    
+    override func layoutSubviews() {
+        NSLayoutConstraint.activate([
+            self.heightAnchor.constraint(equalToConstant: areaHeight)
+        ])
+    }
+    
+    // 此為UIView要求一定要有的init。
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A1CB3075-C27D-4A26-A5C9-752699175BA2</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIView元件模板</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
